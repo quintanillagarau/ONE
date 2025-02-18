@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+img{
+   
+    width: 300px; /* Tamaño de la imagen*/
+    height: auto; /* Tamaño de la imagen*/
+    text-align: center; /* Alinea el texto al centro */
+}
+
+header {
+    background-color:white;
+    border: 5px solid darkblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px; /* Ajusta los bordes del header*/
+}
+
+nav{
+    text-align: center; /* Alinea el texto al centro */
+    color:white;
+    background-color: darkblue;
+    padding: 20px;
+    border-radius: 0px 0px 30px 30px; /* Ajusta los bordes del navegador*/
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: sandybrown;
+    margin-bottom: 0px;
+    padding: 15px;
+    border-radius: 30px 30px 0px 0px; /* Ajusta los bordes de la sección*/
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color:rgb(91, 237, 54);
+    border-radius: 30px 30px; /* Ajusta los bordes de la sección*/
+}
+
+.masbuscados {
+    background-color: sandybrown;
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 20px;
+    border-radius: 30px 30px 0px 0px; /* Ajusta los bordes de la sección*/
+
+}
+
+.dragon {
+    text-align: center; /* Alinea el texto al centro */
+    border-radius: 0px 0px 0px 0px; /* Ajusta los bordes de la sección*/
+}
+
+.dragon img {
+    height: 400px; /* Tamaño de la imagen*/
+    width: 300px; /* Tamaño de la imagen*/
+    object-fit: cover;
+}
+
+.yonko {
+    background-color: sandybrown;
+    border-radius: 0px 0px 30px 30px; /* Ajusta los bordes de la sección*/
+    display: flex;
+    padding: 15px;
+    height: 530px; /* Tamaño de la sección*/
+    overflow: hidden;
+}
+
+.yonko img {
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    max-width: 25%; /* Ancho máximo de la imagen*/
+}
+
+.yonko img:hover {
+    cursor: crosshair;
+    flex-grow: 2;
+    opacity: 1;
+    filter: contrast(120%);
+    max-width: 400px; /* Ancho máximo de la imagen*/
+}
+
+.info {
+    background-color: sandybrown;
+    border-radius: 0px 0px 30px 30px; /* Ajusta los bordes de la sección*/
+    font-size: 20px; /* Tamaño de la fuente*/
+}
+
+.generacion {
+    border-radius: 0px 0px 30px 30px; /* Ajusta los bordes de la sección*/
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.generacion img {
+    height: 400px; /* Tamaño de la imagen*/
+    width: 300px; /* Tamaño de la imagen*/
+    object-fit: cover;
+}
+
+.otros{
+    border-radius: 0px 0px 30px 30px; /* Ajusta los bordes de la sección*/
+    text-align: center;
+}
+
+.otros img {
+    height: 400px; /* Tamaño de la imagen*/
+    width: 300px; /* Tamaño de la imagen*/
+    object-fit: cover;
+}
+
+.marines {
+    Color: #1E90FF;
+}
+
+.topmarines {
+    background-color: sandybrown;
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 20px;
+    border-radius: 30px 30px 30px 30px; /* Ajusta los bordes de la sección*/
+}
+
+.marine-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos */
+    gap: 20px; /* Espacio entre los marines */
+    flex-wrap: wrap; /* Permite que se ajusten en pantallas pequeñas */
+}
+
+.marine {
+    display: inline-block; /* Hace que cada marine se coloque en línea pero ocupe su propio espacio */
+    text-align: center; /* Alinea el texto al centro */
+    width: 300px; /* Ajusta el ancho de cada sección del marine */
+    margin: 10px; /* Espacio entre los marines */
+}
+
+.marine img {
+    display: block; /* Hace que la imagen ocupe su propio espacio de bloque */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    width: 100%; /* Hace que la imagen se ajuste al ancho del contenedor */
+    height: 200px; /* Mantiene la proporción de la imagen */
+}
+
+.belly img {
+    height: 1em; /* Hace que la imagen tenga la misma altura que el texto */
+    width: auto; /* Mantiene la proporción de la imagen */
+    vertical-align: middle; /* Alinea la imagen con el texto */
+}
